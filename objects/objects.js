@@ -99,3 +99,17 @@ let person2 = {
         return this.money;
     }
 }
+
+// Object из Map
+let map = new Map();
+set.set('banana', 1);
+set.set('orange', 2);
+set.set('meat', 4);
+
+let obj = Object.fromEntries(set.entries());
+
+let prices = Object.fromEntries([
+    ['banana', 1],
+    ['orange', 2],
+    ['meat', 4]
+  ]);
