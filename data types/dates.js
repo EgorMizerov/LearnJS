@@ -27,4 +27,5 @@ Dec31_2019.setMilliseconds(10); // Установить миллисекунды
 now = Date.now(); // Возвращает текущую дату и время
 
 // Date.parse(str)
-let Dec13_2020 = Date.parse('2020-12-13T01:02')
+// Формат строки должен быть следующим: YYYY-MM-DDTHH:mm:ss.sssZ
+let Dec13_2020 = Date.parse('2020-12-13T13:51:50.417+05:00')
