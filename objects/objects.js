@@ -112,4 +112,11 @@ let prices = Object.fromEntries([
     ['banana', 1],
     ['orange', 2],
     ['meat', 4]
-  ]);
+]);
+
+// Деструктуризация объекта
+let {banana, orange, meat} = obj;
+let {banana: банан, orange: апельсин, meat: мясо} = obj; // банан = 1, апельсин = 2, мясо = 4
+let {count = 100, banana} = obj; // count = 100, banana = 1
+let {banana, ...fruits} = obj; // banana = 1, fruits[0] = 2, fruits[1] = 4 
+
