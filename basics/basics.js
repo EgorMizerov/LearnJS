@@ -60,10 +60,11 @@ if (+age < 3) {
 ! - НЕ
 */
 
+// Проверка на null ??
 alert(null ?? "Антон"); // Антон
 alert("Ваня" ?? "Антон"); // Ваня
 
-// Циклы while, do while, for
+// Циклы while
 let count = 0;
 while (true) {
     if (count == 5) break;
@@ -72,12 +73,14 @@ while (true) {
     
 }
 
+// do .. while
 do {
     if (count == 10) break;
     count++;
     alert(count);
 } while (true);
 
+// for
 for (let i = 1; i <= 3; i++) {
     alert(i)
 }
