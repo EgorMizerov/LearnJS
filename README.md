@@ -16,3 +16,4 @@ data types/<br>
 
 objects/<br>
 ├── objects.js | Объекты<br>
+├── funcsFromObjects.js | Функции для объектов<br>
