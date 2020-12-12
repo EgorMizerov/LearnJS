@@ -14,3 +14,4 @@ str.includes("Hello");  // true | Существование строки
 str.slice(7, 12);       // World | Срез строкип
 str.toUpperCase;        // "HELLO, WORLD!"
 str.toLowerCase;        // "hello, world!"
+"Egor, Tolik, Denis".split(", ")    // ["Egor", "Tolik", "Denis"]
