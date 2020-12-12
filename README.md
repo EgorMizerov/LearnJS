@@ -3,7 +3,7 @@
 <hr>
 basics/
 
-├── basics.js | Основы JavaScript<br>
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/basics/basics.js">basics.js</a> | Основы JavaScript<br>
 ├── funcs.js  | Функции<br>
 
 data types/<br>
