@@ -11,6 +11,7 @@
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/data%20types/strings.js">strings.js</a> | Строки<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/data%20types/maps.js">maps.js</a> | Коллекции ключ и значение<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/data%20types/sets.js">sets.js</a> | Коллекции с уникальным значением<br>
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/data%20types/dates.js">dates.js</a> | Дата и время<br>
 
 
 <a href="https://github.com/EgorMizerov/LearnJS/blob/main/objects/">objects/</a><br>
