@@ -10,6 +10,8 @@ data types/<br>
 ├── arrays.js | Массивы<br>
 ├── numbers.js | Числа<br>
 ├── strings.js | Строки<br>
+├── maps.js | Коллекции ключ и значение<br>
+├── sets.js | Коллекции с уникальным значением<br>
 
 
 objects/<br>
