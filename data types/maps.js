@@ -38,3 +38,21 @@ let obj = {
 };
 
 let map = new Map(Object.entries(obj));
+
+
+// WeekMaps
+// ====================================================================
+
+// Создание WeekMap
+let weakmap = new WeakMap();
+weakmap.set(obj, "Value") // Ключом в WeakMap может ыбть только объект
+
+/*
+В WeakMap пристуствуют тольк следующие значения:
+WeakMap.get(key)
+WeakMap.set(key, value)
+WeakMap.delete(key)
+WeakMap.has(key)
+*/
+
+// ====================================================================
