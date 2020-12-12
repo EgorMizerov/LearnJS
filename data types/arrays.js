@@ -37,9 +37,12 @@ users = [
 users.find(item => item.id == 2);   // {id: 2, name: "Denis"} | Ищет подходящий элемент
 users.filter(item => item.id < 3);  // {id: 1, name: "Egor"}, {id: 2, name: "Denis"}
 
-
-
 // for .. of
 for (let fruit of fruits) {
     alert(fruit);
 }
+
+// Деструктуризация массива
+let [egor, denis, tolik] = users; // egor = {id: 1, name: "Egor"}, denis = {id: 2, name: "Denis"}, tolik = {id: 3, nmae: "Tolik"}
+let [egor, ...names] = users; // egor = {id: 1, name: "Egor"}, names[0] = {id: 2, name: "Denis"}, names[1] = {id: 3, nmae: "Tolik"}
+
