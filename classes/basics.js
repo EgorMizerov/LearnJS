@@ -52,3 +52,8 @@ let User = class MyClass {
         alert(MyClass); // имя MyClass видно только внутри класса
     }
 };
+
+// Оператор instanceof позволяет проверить, к какому классу принадлежит объект, с учётом наследования.
+// Оператор вернёт true, если obj принадлежит классу Class или наследующему от него.
+user instanceof User; // true
+user instanceof Object; // true
