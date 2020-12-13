@@ -8,7 +8,7 @@
 <a href="https://github.com/EgorMizerov/LearnJS/blob/main/classes/">classes/</a><br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/classes/basics.js">basics.js</a> | Основы классов<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/classes/inheritance.js">inheritance.js</a>  | Наследование<br>
-
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/classes/statics.js">statics.js</a>  | Статические переменные и методы<br>
 
 <a href="https://github.com/EgorMizerov/LearnJS/blob/main/data%20types/">data types/</a><br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/data%20types/arrays.js">arrays.js</a> | Массивы<br>
