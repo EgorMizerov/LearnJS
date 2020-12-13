@@ -15,6 +15,17 @@ Object.defineProperty(user, "name", {
     value: "Egor"
 });
 
+// Дескрипторы свойств доступа
+Object.defineProperty(user, 'fullName', {
+    get() {
+      return `${this.name} ${this.surname}`;
+    },
+  
+    set(value) {
+      [this.name, this.surname] = value.split(" ");
+    }
+});
+
 // Метод Object.getOwnPropertyDescriptor позволяет получить полную информацию о свойстве
 let descriptor = Object.getOwnPropertyDescriptor(user, 'name');
 alert( JSON.stringify(descriptor, null, 2 ) );
