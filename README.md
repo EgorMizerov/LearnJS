@@ -1,6 +1,10 @@
 # Тут бдет документация
 ## Навигация
 <hr>
+<a href="https://github.com/EgorMizerov/LearnJS/blob/main/async/">async/</a><br>
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/async/callbacks.js">callbacks.js</a> | Колбэки<br>
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/async/promise.js">promise.js</a>  | Промисы<br>
+
 <a href="https://github.com/EgorMizerov/LearnJS/blob/main/basics/">basics/</a><br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/basics/basics.js">basics.js</a> | Основы JavaScript<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/basics/funcs.js">funcs.js</a>  | Функции<br>
@@ -39,4 +43,4 @@
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/objects/funcsFromObjects.js">funcsFromObjects.js</a> | Функции для объектов<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/objects/prototype.js">prototype.js</a> | Прототипирование<br>
 
-<a href="https://github.com/EgorMizerov/LearnJS/blob/main/errors.js">errors.js | Ошбики</a><br>
+<a href="https://github.com/EgorMizerov/LearnJS/blob/main/errors.js">errors.js</a> | Ошбики<br>
