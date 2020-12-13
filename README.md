@@ -25,5 +25,6 @@
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/recursion.js">recursion.js</a> | Рекурсия<br>
 
 <a href="https://github.com/EgorMizerov/LearnJS/blob/main/objects/">objects/</a><br>
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/objects/flags.js">flags.js</a> | Флаги объектов<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/objects/objects.js">objects.js</a> | Объекты<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/objects/funcsFromObjects.js">funcsFromObjects.js</a> | Функции для объектов<br>
