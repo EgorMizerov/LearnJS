@@ -13,6 +13,7 @@
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/data%20types/sets.js">sets.js</a> | Коллекции с уникальным значением<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/data%20types/dates.js">dates.js</a> | Дата и время<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/data%20types/json.js">json.js</a> | JSON объект<br>
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/data%20types/linkedlists.js">linkedlists.js</a> | Связанный список<br>
 
 
 <a href="https://github.com/EgorMizerov/LearnJS/blob/main/objects/">objects/</a><br>
