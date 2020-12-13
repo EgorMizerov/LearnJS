@@ -10,6 +10,16 @@ let sayHi = function(name) {
     alert(`Привет, ${name}`);
 };
 
+// Named Function Expression
+// =========================
+let sayHi = function func(who) {
+    if (who) {
+      alert(`Hello, ${who}`);
+    } else {
+      func("Guest"); // использует func, чтобы снова вызвать себя же
+    }
+};
+
 // Function with Callback
 // ======================
 function ask(question, yes, no) {
