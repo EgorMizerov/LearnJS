@@ -13,11 +13,12 @@
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/data%20types/sets.js">sets.js</a> | Коллекции с уникальным значением<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/data%20types/dates.js">dates.js</a> | Дата и время<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/data%20types/json.js">json.js</a> | JSON объект<br>
-├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/data%20types/linkedlists.js">linkedlists.js</a> | Связанный список<br>
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/data%20types/linkedlists.js">linkedlists.js</a> | Связанный список
 
 <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/">funcs/</a><br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/args.js">args.js</a> | Остаточные аргументы<br>
-├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/recursion.js">recursion.js</a> | Рекурсия<br>
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/globalobjects.js">globalobjects.js</a> | Глобальные объекты<br>
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/recursion.js">recursion.js</a> | Рекурсия
 
 <a href="https://github.com/EgorMizerov/LearnJS/blob/main/objects/">objects/</a><br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/objects/objects.js">objects.js</a> | Объекты<br>
