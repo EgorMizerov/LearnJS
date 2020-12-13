@@ -22,6 +22,7 @@
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/funcobject.js">funcobject.js</a> | Объект функции<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/globalobjects.js">globalobjects.js</a> | Глобальные объекты<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/planning.js">planning.js</a> | Планнирование<br>
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/prototype.js">prototype.js</a> | Прототипирование<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/recursion.js">recursion.js</a> | Рекурсия<br>
 
 <a href="https://github.com/EgorMizerov/LearnJS/blob/main/objects/">objects/</a><br>
