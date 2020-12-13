@@ -17,9 +17,10 @@
 
 <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/">funcs/</a><br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/args.js">args.js</a> | Остаточные аргументы<br>
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/decorators.js">decorators.js</a> | Дектораторы<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/funcobject.js">funcobject.js</a> | Объект функции<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/globalobjects.js">globalobjects.js</a> | Глобальные объекты<br>
-├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/planning.js">planning.js</a> | Глобальные объекты<br>
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/planning.js">planning.js</a> | Планнирование<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/recursion.js">recursion.js</a> | Рекурсия<br>
 
 <a href="https://github.com/EgorMizerov/LearnJS/blob/main/objects/">objects/</a><br>
