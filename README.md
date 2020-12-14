@@ -14,6 +14,7 @@
 
 <a href="https://github.com/EgorMizerov/LearnJS/blob/main/browser/">browser/</a><br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/browser/document.js">document.js</a> | Работа с HTML и CSS<br>
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/browser/events.js">events.js</a> | События<br>
 
 <a href="https://github.com/EgorMizerov/LearnJS/blob/main/classes/">classes/</a><br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/classes/basics.js">basics.js</a> | Основы классов<br>
