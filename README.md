@@ -51,3 +51,4 @@
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/objects/prototype.js">prototype.js</a> | Прототипирование<br>
 
 <a href="https://github.com/EgorMizerov/LearnJS/blob/main/errors.js">errors.js</a> | Ошбики<br>
+<a href="https://github.com/EgorMizerov/LearnJS/blob/main/modules.js">modules.js</a> | Модули<br>
