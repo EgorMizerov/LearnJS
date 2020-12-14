@@ -2,9 +2,10 @@
 ## Навигация
 <hr>
 <a href="https://github.com/EgorMizerov/LearnJS/blob/main/async/">async/</a><br>
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/async/asyncAwait.js">asyncAwait.js</a> | async/await<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/async/callbacks.js">callbacks.js</a> | Колбэки<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/async/promise.js">promise.js</a>  | Промисы<br>
-├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/async/promiseChaining.js">promiseChaining.js</a> | Цепочки промисов<br><br>
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/async/promiseChaining.js">promiseChaining.js</a> | Цепочки промисов<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/async/promisify.js">promisify.js</a> | Промисификация<br><br>
 
 <a href="https://github.com/EgorMizerov/LearnJS/blob/main/basics/">basics/</a><br>
