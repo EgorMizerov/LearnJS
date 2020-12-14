@@ -27,7 +27,7 @@ elem.removeAttribute("name");       // удаляет атрибут.
 elem.attributes;                    // получить все атрибуты.
 
 // Изменение документа
-// ===================================================================================
+// ======================================================================================
 
 // Создание элемента
 document.createElement('tag');      // Создаёт новый элемент с заданным тегом
@@ -59,3 +59,36 @@ node.remove();
 // Клонирование узлов
 elem2 = elem.cloneNode(true);   // Вызов elem.cloneNode(true) создаёт «глубокий» клон элемента – со всеми атрибутами и дочерними элементами.
 elem2 = elem.cloneNode(false);  // Если мы вызовем elem.cloneNode(false), тогда клон будет без дочерних элементов.
+
+// Классы и стили
+// ======================================================================================
+
+elem.className;                     // Свойство className позволяет получить или изменить HTML свойство class
+
+// classList является перебираемым, поэтому можно перечислить все классы при помощи for..of
+elem.classList.add("class");        // Добавить класс
+elem.classList.remove("class");     // Удалить класс
+elem.classList.toggle("class");     // Добавить класс, если его нет, иначе удалить
+elem.classList.contains("class");   // Проверка наличия класса, возвращает true/false
+
+elem.style.styleName = "value";     // Свойство style позволяет изменить HTML свойство style
+elem.style.backgroundColor = "red"; // Изменить стиль фона
+
+// getComputedStyle(element, [pseudo]) element -  значения для которого нужно получить css, pseudo - указывается, если нужно знать стиль псевоэлемента
+let elemStyle = getComputedStyle(elem);
+elem.styleName;                     // Свойство styleName позволяет поулчить стиль styleName
+elem.backgroundColor;               // Получить стиль фона
+
+// Размеры и прокрутка окна
+// ======================================================================================
+document.documentElement.clientHeight;  // Высота видимого окна
+document.documentElement.clientWidth;   // Ширина видимого окна
+document.documentElement.scrollHeight;  // Высота страницы
+document.documentElement.scrollWidth;   // Ширина страницы
+window.pageYOffset;                     // Текущая высота прокрутки
+window.pageXOffset;                     // Текущая ширина прокрутки
+
+window.scrollTo(0, 100);                // Прокручивает страницу на абсолютные кординаты X, Y
+window.scrollBy(0, 100);                // Прокручивает страницу на 100 пикселей вниз
+document.body.style.overflow = 'hidden';// Запрещает скроллить страницу
+document.body.style.overflow = '';      // Разрешает скроллить страницу
