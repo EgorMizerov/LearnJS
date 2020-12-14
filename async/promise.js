@@ -38,3 +38,38 @@ promise1.then(
 
 promise2.catch(alert); // выведет "Error: Whoops!" спустя 10 секунду
 promise2.finally(() => alert("Промис завершён")); // Выведет сообщение, после завершения промиса
+
+// =======================================================================================================================================
+
+// Статические методы
+// ===============================================================================================
+
+let urls = [
+    'https://api.github.com/users/iliakan',
+    'https://api.github.com/users/remy',
+    'https://no-such-url'
+];
+
+Promise.all([ // Запуск множества промисов одновременно
+    new Promise(resolve => setTimeout(() => resolve(1), 3000)), // 1
+    new Promise(resolve => setTimeout(() => resolve(2), 2000)), // 2
+    new Promise(resolve => setTimeout(() => resolve(3), 1000))  // 3
+]).then(alert);
+
+Promise.allSettled(urls.map(url => fetch(url))) // Запуск множества промисов
+.then(results => { // хранит в себе массив результатов промисов
+    results.forEach((result, num) => {
+        if (result.status == "fulfilled") {
+            alert(`${urls[num]}: ${result.value.status}`);
+        }
+        if (result.status == "rejected") {
+            alert(`${urls[num]}: ${result.reason}`);
+        }
+    });
+});
+
+Promise.race([ // ждёт только первый промис, из которого берёт результат (или ошибку)
+    new Promise((resolve, reject) => setTimeout(() => resolve(1), 1000)),
+    new Promise((resolve, reject) => setTimeout(() => reject(new Error("Ошибка!")), 2000)),
+    new Promise((resolve, reject) => setTimeout(() => resolve(3), 3000))
+]).then(alert); // 1
