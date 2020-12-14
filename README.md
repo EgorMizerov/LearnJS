@@ -39,6 +39,10 @@
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/prototype.js">prototype.js</a> | Прототипирование<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/funcs/recursion.js">recursion.js</a> | Рекурсия<br>
 
+<a href="https://github.com/EgorMizerov/LearnJS/blob/main/generators/">generators/</a><br>
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/generators/asyncGenAndIter.js">asyncGenAndIter.js</a> | Асинхронные генераторы и итераторы<br>
+├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/generators/generators.js">generators.js</a> | Генераторы<br>
+
 <a href="https://github.com/EgorMizerov/LearnJS/blob/main/objects/">objects/</a><br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/objects/flags.js">flags.js</a> | Флаги объектов<br>
 ├── <a href="https://github.com/EgorMizerov/LearnJS/blob/main/objects/objects.js">objects.js</a> | Объекты<br>
