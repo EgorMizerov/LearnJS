@@ -47,11 +47,13 @@ elem.onclick = (event) => {
     // Коордианат курсора в момент клика относительно окна, для событий мыши
     event.clientX;
     event.clientY;
-    event.target;
+    event.target;   // Выводит самый глубокий элемент, который вызывает событие
 }
 
 // Прекращение всплытия
 elem.onclick = (event) => {
     alert("Событие обработано")
-    event.stopPropagation();
+    event.stopPropagation();    // Останваливает всплытие
 }
+
+elem.closest('selector');   // Возврощает ближайшего предка, соответствующего селектору
