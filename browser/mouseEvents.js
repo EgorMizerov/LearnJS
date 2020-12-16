@@ -15,6 +15,15 @@ dbclick - происходит, когда два рааз кликнули на
 
 contextmenu – происходит, когда кликнули на элемент правой кнопкой мыши.
 Порядок действий: mousedown => contextmenu => mouseup
+
+relatedTarget
+===================================================================================================================================
+Для события mouseover:
+event.target – это элемент, на который курсор перешёл.
+event.relatedTarget – это элемент, с которого курсор ушёл (relatedTarget → target).
+Для события mouseout наоборот:
+event.target – это элемент, с которого курсор ушёл.
+event.relatedTarget – это элемент, на который курсор перешёл (target → relatedTarget).
 */
 
 let elem = document.getElementsByName("id");

@@ -26,11 +26,11 @@ let elem = document.getElementsByName("id");
 elem.onclick = () => elem.style.backgroundColor = "gray"; // При клике меняет фон элемента на серый
 
 // Несколько оброботчиков событий
-elem.addEventListener("onevent", handler);
-elem.addEventListener("onevent", handler2);
+elem.addEventListener("event", handler);
+elem.addEventListener("event", handler2);
 
 // Удаление обработчиков событий
-elem.removeEventListener("onevent", handler);
+elem.removeEventListener("event", handler);
 
 // Объект события
 elem.onclick = (event) => {
